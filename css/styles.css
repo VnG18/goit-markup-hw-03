@@ -1,0 +1,237 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+/* ================== reset the defaults ================== */
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ================== /reset the defaults ================== */
+
+/* ================== body ================== */
+body {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  color: var(--primary-text-color);
+}
+/* ================== /body ================== */
+
+/* ================== components ================== */
+
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+.unit-background {
+  background: #2f303a;
+}
+/* ================== /components ================== */
+
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ================== header ================== */
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-nav {
+  color: var(--primary-text-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  color: var(--secondary-text-color);
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+/* ================== /header ================== */
+
+/* ================== hero ================== */
+
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #188ce8;
+}
+
+/* ================== /hero ================== */
+
+/* ================== section-advantage ================== */
+.advantage-header {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantage-paragraph {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+/* ================== /section-advantage ================== */
+
+/* ================== section-activity ================== */
+
+/* ================== /section-activity ================== */
+
+/* ================== section-team ================== */
+.section-team {
+  background: #f5f4fa;
+}
+
+.employee-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.job-title {
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+/* ================== /section-team ================== */
+
+/* ================== footer ================== */
+
+.footer .logo-link {
+  color: #ffffff;
+}
+.address-footer {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ================== /footer ================== */
+
+/* ================== portfolio ================== */
+
+.btn {
+  border: none;
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.header-samples {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.00;
+
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-color);
+}
+
+.par-samples {
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color);
+}
+/* ================== /portfolio ================== */
