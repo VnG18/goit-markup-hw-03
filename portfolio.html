@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,142 +16,175 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <nav>
-        <a class="link logo-link" href=""
-          ><span class="logo-web">Web</span>Studio</a
-        >
-        <ul class="list">
-          <li><a class="link header-nav" href="./index.html">Студия</a></li>
-          <li>
-            <a class="link header-nav current" href="./portfolio.html"
-              >Порфолио</a
-            >
+    <div class="container">
+      <header class="header">
+        <nav class="header-center">
+          <a class="link logo-link" href=""
+            ><span class="logo-web">Web</span>Studio</a
+          >
+          <ul class="list menu">
+            <li class="menu-item">
+              <a class="link menu-nav" href="./index.html">Студія</a>
+            </li>
+            <li class="menu-item">
+              <a class="link menu-nav current" href="./portfolio.html"
+                >Порфоліо</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="link menu-nav" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list header-center">
+          <li class="contacts-item">
+            <div class="img-with-icon">
+              <img
+                class="img-with-icon-item"
+                src="./images/icons/envelope-ico.svg"
+                alt="Іконка електронної пошти"
+              />
+              <a
+                class="link header-contact img-with-icon-item"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </div>
           </li>
-          <li><a class="link header-nav" href="">Контакты</a></li>
+          <div class="img-with-icon">
+            <li class="contacts-item">
+              <img
+                class="img-with-icon-item"
+                src="./images/icons/smart-ico.svg"
+                alt="Іконка електронної пошти"
+              />
+              <a
+                class="link header-contact img-with-icon-item"
+                href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </div>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="link header-contacts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="link header-contacts" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
-    </header>
+      </header>
+    </div>
+
     <main>
-      <section>
+      <section class="container filter">
         <h1 hidden>Фильтр</h1>
         <button class="btn" type="button">Все</button>
-        <button class="btn" type="button">Веб-сайты</button>
-        <button class="btn" type="button">Приложения</button>
+        <button class="btn" type="button">Веб-сайти</button>
+        <button class="btn" type="button">Додатки</button>
         <button class="btn" type="button">Дизайн</button>
         <button class="btn" type="button">Маркетинг</button>
       </section>
 
-      <section>
-        <ul class="list">
-          <li>
-            <img src="./images/portfolio/techno-crack.jpg" alt="Технокряк" />
-            <h2 class="header-samples">Технокряк</h2>
-            <p class="par-samples">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/basket-ball.jpg"
-              alt="Постер New Orlean vs Golden Star"
-            />
-            <h2 class="header-samples">
-              Постер <span lang="en">New Orlean vs Golden Star</span>
-            </h2>
-            <p class="par-samples">Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/portfolio/sea-food.jpg" alt="Ресторан Сифуд" />
-            <h2 class="header-samples">
-              Ресторан <span lang="en">Seafood</span>
-            </h2>
-            <p class="par-samples">Приложение</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/project-prime.jpg"
-              alt="Проект Прайм"
-            />
-            <h2 class="header-samples">Проект <span lang="en">Prime</span></h2>
-            <p class="par-samples">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/project-boxes.jpg"
-              alt="Проект Боксы"
-            />
-            <h2 class="header-samples">Проект <span lang="en">Boxes</span></h2>
-            <p class="par-samples">Приложение</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/monitor.jpg"
-              alt="Вдохновение не имеет границ"
-            />
-            <h2 class="header-samples">
-              <span lang="en">Inspiration has no Borders</span>
-            </h2>
-            <p class="par-samples">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/limited-edition.jpg"
-              alt="Издание Лимитед Эдишн"
-            />
-            <h2 class="header-samples">
-              Издание <span lang="en">Limited Edition</span>
-            </h2>
-            <p class="par-samples">Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/portfolio/lab.jpg" alt="Проект ЛАБ" />
-            <h2 class="header-samples">Проект <span lang="en">LAB</span></h2>
-            <p class="par-samples">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/portfolio/growing-business.jpg"
-              alt="Растущий бизнес"
-            />
-            <h2 class="header-samples">
-              <span lang="en">Growing Business</span>
-            </h2>
-            <p class="par-samples">Приложение</p>
-          </li>
-        </ul>
+      <section class="samples">
+        <div class="container">
+          <ul class="list samples-list">
+            <li class="samples-item">
+              <img src="./images/portfolio/techno-crack.jpg" alt="Технокряк" />
+              <h2 class="header-samples">Технокряк</h2>
+              <p class="par-samples">Веб-сайт</p>
+            </li>
+            <li class="samples-item">
+              <img
+                src="./images/portfolio/basket-ball.jpg"
+                alt="Постер New Orlean vs Golden Star"
+              />
+              <h2 class="header-samples">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="par-samples">Дизайн</p>
+            </li>
+            <li class="samples-item">
+              <img src="./images/portfolio/sea-food.jpg" alt="Ресторан Сіфуд" />
+              <h2 class="header-samples">
+                Ресторан <span lang="en">Seafood</span>
+              </h2>
+              <p class="par-samples">Додаток</p>
+            </li>
+            <li class="samples-item">
+              <img
+                src="./images/portfolio/project-prime.jpg"
+                alt="Проект Прайм"
+              />
+              <h2 class="header-samples">
+                Проект <span lang="en">Prime</span>
+              </h2>
+              <p class="par-samples">Маркетинг</p>
+            </li>
+            <li class="samples-item">
+              <img
+                src="./images/portfolio/project-boxes.jpg"
+                alt="Проект Бокси"
+              />
+              <h2 class="header-samples">
+                Проект <span lang="en">Boxes</span>
+              </h2>
+              <p class="par-samples">Додаток</p>
+            </li>
+            <li class="samples-item">
+              <img
+                src="./images/portfolio/monitor.jpg"
+                alt="Вдохновение не имеет границ"
+              />
+              <h2 class="header-samples">
+                <span lang="en">Inspiration has no Borders</span>
+              </h2>
+              <p class="par-samples">Веб-сайт</p>
+            </li>
+            <li class="samples-item">
+              <img
+                src="./images/portfolio/limited-edition.jpg"
+                alt="Издание Лимитед Эдишн"
+              />
+              <h2 class="header-samples">
+                Видання <span lang="en">Limited Edition</span>
+              </h2>
+              <p class="par-samples">Дизайн</p>
+            </li>
+            <li class="samples-item">
+              <img src="./images/portfolio/lab.jpg" alt="Проект ЛАБ" />
+              <h2 class="header-samples">Проект <span lang="en">LAB</span></h2>
+              <p class="par-samples">Маркетинг</p>
+            </li>
+            <li class="samples-item">
+              <img
+                src="./images/portfolio/growing-business.jpg"
+                alt="Зростаючий бизнес"
+              />
+              <h2 class="header-samples">
+                <span lang="en">Growing Business</span>
+              </h2>
+              <p class="par-samples">Додаток</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer unit-background">
-      <a class="link logo-link" href=""
-        ><span class="logo-web">Web</span>Studio</a
-      >
-      <address class="address-footer">
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="list">
-          <li>
-            <a class="link footer-contacts" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="link footer-contacts" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="link logo-link" href=""
+          ><span class="logo-web">Web</span>Studio</a
+        >
+        <address class="address-footer">
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="list">
+            <li>
+              <a class="link footer-contacts" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link footer-contacts" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
