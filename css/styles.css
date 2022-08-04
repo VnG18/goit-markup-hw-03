@@ -112,6 +112,10 @@ body {
 }
 
 .header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-div {
   display: flex;
   justify-content: space-between;
 
@@ -175,10 +179,6 @@ body {
 
 .img-with-icon-item:not(:first-child) {
   margin-left: 10px;
-}
-
-.container.header {
-  border-bottom: 1px solid #ececec;
 }
 
 /* ================== /header ================== */
