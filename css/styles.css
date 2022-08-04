@@ -114,6 +114,10 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -126,8 +130,8 @@ body {
 
 .menu {
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  /* margin-top: 32px;
+  margin-bottom: 32px; */
   margin-left: 93px;
 }
 
@@ -182,10 +186,14 @@ body {
 /* ================== hero ================== */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
 
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -193,8 +201,9 @@ body {
 }
 
 .hero-header {
+  width: 696px;
   margin-left: auto;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   margin-right: auto;
 
   font-weight: 900;
@@ -207,10 +216,10 @@ body {
 }
 
 .hero-container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .hero-btn {
@@ -251,10 +260,6 @@ body {
   display: flex;
 }
 
-.advantage-item {
-  width: 270px;
-}
-
 .advantage-item:not(:first-child) {
   margin-left: 30px;
 }
@@ -283,10 +288,6 @@ body {
   margin-top: 50px;
 }
 
-.activity-item {
-  width: 270px;
-}
-
 .activity-item:not(:first-child) {
   margin-left: 30px;
 }
@@ -307,14 +308,14 @@ body {
 }
 
 .team-item {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 
-  align-items: center;
+  text-align: center;
 }
 
 .employee-name {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 
   font-weight: 500;
   font-size: 16px;
@@ -325,7 +326,7 @@ body {
 
 .job-title {
   margin-top: 10px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 
   font-size: 16px;
   line-height: 1.19;
@@ -333,6 +334,13 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color);
+}
+
+.job-caption {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  text-align: center;
 }
 /* ================== /section-team ================== */
 
@@ -371,6 +379,12 @@ body {
 /* ================== portfolio ================== */
 
 .btn {
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  padding-left: 22px;
+  padding-right: 22px;
+
   border: none;
   border-radius: 4px;
 
@@ -395,9 +409,13 @@ body {
   margin-left: 8px;
 }
 
-.filter {
+.filter-list {
   display: flex;
   justify-content: center;
+}
+
+.filter-item:not(:first-child) {
+  margin-left: 8px;
 }
 
 .samples-list {
@@ -410,8 +428,6 @@ body {
 .samples-item {
   margin-right: 30px;
   margin-bottom: 30px;
-
-  border-bottom: 1px solid #eeeeee;
 
   width: 370px;
 }
@@ -455,5 +471,10 @@ body {
 
   padding-left: 24px;
   padding-right: 24px;
+
+  border-bottom: 1px solid #eee;
+
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
 }
 /* ================== /portfolio ================== */
